@@ -1,0 +1,12 @@
+# Ignore input and output test files from language stats
+*.in linguist-detectable=false
+*.out linguist-detectable=false
+
+# Ignore any text files
+*.txt linguist-detectable=false
+
+# Ignore Makefile if you don’t want it showing as its own language
+Makefile linguist-detectable=false
+
+# Ignore shell scripts if you have any
+*.sh linguist-detectable=false
